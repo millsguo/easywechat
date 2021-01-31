@@ -6,7 +6,7 @@ namespace EasyWeChat\Kernel\Contracts;
 
 use ArrayAccess;
 
-interface Arrayable extends ArrayAccess
+interface Jsonable extends ArrayAccess
 {
-    public function toArray(): array;
+    public function toJson(): string;
 }
